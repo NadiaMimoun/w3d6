@@ -33,15 +33,7 @@ const items=[];
        items.push(new item(req.body.name,req.body.price,1) );}
        res.redirect(`/shoppingcart`);
        
-    // const name=req.body.name;
-    // const price=req.body.price;
     
-
-    // res.render("addToCart", {
-    //     name:name,
-    //     price:price,
-
-    //     })
 
    }
    exports.shoppingcart=(req,res)=>{
